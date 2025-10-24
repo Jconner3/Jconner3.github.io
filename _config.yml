@@ -1,1 +1,13 @@
-
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+title: Jarett Conner — CS Capstone E‑Portfolio
+description: Welcome, self‑assessment, single artifact with enhancements, narratives across three categories, and a code review video.
+url: "https://Jconner3.github.io"
+baseurl: "/Jconner3"
+header_pages:
+  - index.md
+  - self-assessment.md
+  - artifact.md
+  - narratives.md
+  - code-review.md
