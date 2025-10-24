@@ -1,1 +1,4 @@
-# CS 499 ePortfolio
+# Jarett Conner
+# ePortfolio
+## **CS499 Computer Science Capstone**
+
