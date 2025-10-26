@@ -8,7 +8,7 @@ Welcome to my capstone ePortfolio for Southern New Hampshire University’s(SNHU
 
 
 ## Table of Contents {:#toc}
-- [Professional Self-Assessment (#self)
+- [Professional Self-Assessment](#self)
 - [Capstone Artifact](#artifact)
   - [Original Artifact](#artifact-original)
   - [Enhanced Artifact](#artifact-enhanced)
