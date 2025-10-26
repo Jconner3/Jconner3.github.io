@@ -3,11 +3,11 @@ layout: default
 title: "CS Capstone E-Portfolio"
 ---
 
-# CS Capstone E-Portfolio {:#top}
-Welcome message here. Explain what the reviewer will find on this page.
+## Welcome {:#welcome}
+Welcome to my capstone ePortfolio for Southern New Hampshire University’s(SNHU) Computer Science program. This single page completes CS499 and the remaining requirements for my B.S. in Computer Science. My goal was simple, to demonstrate sound engineering practice and explain decisions in plain language while providing evidence of progress from coursework to capstone.
+
 
 ## Table of Contents {:#toc}
-- [Welcome](#welcome)
 - [Professional Self-Assessment / Education Review](#self)
 - [Capstone Artifact](#artifact)
   - [Original Artifact](#artifact-original)
@@ -17,9 +17,6 @@ Welcome message here. Explain what the reviewer will find on this page.
   - [Algorithms & Data Structures](#narrative-algo)
   - [Databases](#narrative-db)
 - [Code Review Video](#code-review)
-
-## Welcome {:#welcome}
-Welcome to my capstone e-portfolio for Southern New Hampshire University’s(SNHU) Computer Science program. This single page completes CS-499 and the remaining requirements for my B.S. in Computer Science. My goal was simple,  to demonstrate sound engineering practice and explain decisions in plain technical language while providing evidence of progress from coursework to capstone.
 
 ## Professional Self-Assessment {:#self}
 I started the Computer Science program in February 2023, so I have been in the program for about two and a half years. Before this degree, I studied biology at Angelo State University for two years. I originally planned on medical school, but I ultimately decided my interest in science and medicine was rooted in the knowledge and understanding, not so much from practicing medicine. My path into computer science was not a straight line, but I think that ended up helping me in the long run. Being a biology major taught me how to observe, document, and explain processes clearly and the transition to computer science taught me how to build those processes into working systems.
