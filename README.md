@@ -1,4 +1,4 @@
-<ins>## Category Three: Databases</ins>
+## <ins>Category Three: Databases</ins>
 
 In the original version of the project, entries were being stored, but the storage layer wasn’t built with security in mind and wasn’t optimized for growing history. I reworked that layer so it behaves more like something you would see in an application that handles personal data. The most important change was migrating the local database to SQLCipher so that all records are encrypted at rest. I loaded the SQLCipher libraries in the app, opened the database with a passphrase instead of plain SQLite, and kept that passphrase in memory rather than hardcoding it. That change means the user’s history is not left in clear text on the device. 
 
