@@ -50,8 +50,7 @@ The original unenhanced code of the artifact can be found [here](https://github.
       <sub><strong>Home Screen</strong></sub>
     </td>
     <td align="center">
-      <img width="201" height="445" alt="Screenshot 2025-10-26 at 11 11 22 PM" src="https://github.com/user-attachments/assets/d3885b2e-dde5-4dde-aaac-636e3ed3a1a0" />
-      <br>
+      <img width="201" height="445" alt="Screenshot 2025-10-26 at 11 11 22 PM" src="https://github.com/user-attachments/assets/d3885b2e-dde5-4dde-aaac-636e3ed3a1a0" /><br>    
       <sub><strong>Log Your Weight screen</strong></sub>
     </td>
   </tr>
