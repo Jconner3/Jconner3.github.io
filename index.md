@@ -54,7 +54,7 @@ The fully updated artifact code can be found [here](https://github.com/Jconner3/
 
 
 ## Enhancement:Software Engineering and Design
-**Click here to view the full narative**|[View Narative](https://github.com/Jconner3/Jconner3.github.io/blob/Software-Engineering-%26-Design/README.md)
+[**Click here to view the full narative**](https://github.com/Jconner3/Jconner3.github.io/blob/Software-Engineering-%26-Design/README.md)
 
 The artifact was chosen for this enhancement category because the app had to grow from a basic working idea into something a real person could actually use every day. That meant I had to think about layout, flow, clarity, and error recovery, not just raw functionality. I redesigned screens so that important information is easy to find, made editing and deleting entries feel controlled instead of risky, and adjusted the interaction patterns to feel intentional on a mobile device. I also reworked how the interface and the underlying code support each other, so the behavior the user sees on screen is backed by consistent logic.
 
@@ -65,7 +65,7 @@ I developed a security mindset that anticipates adversarial exploits in software
 
 
 ## Enhancement:Algorithms and Data Structures
-**Click here to view the full narative**|[View Narative](https://github.com/Jconner3/Jconner3.github.io/tree/Algorithms-%26-Data-Structures/README.md)
+[**Click here to view the full narative**](https://github.com/Jconner3/Jconner3.github.io/tree/Algorithms-%26-Data-Structures/README.md)
 
 WeighForward deservers an enhancement in the Algorithms & Data Structures category because the functionally should go beyond just storing numbers for the user to look at. The app processes the user’s history, summarizes it, and turns it into something readable and meaningful. I wrote logic that can group entries by month, generate monthly averages, and build a progress view that reflects real change over time instead of just listing isolated values. I also added filtering to the page that shows all the users logged weights so they can focus on recent history or long-term trends without being overwhelmed. I implemented features that generated useful results efficiently, presents those results in a way that answers, “how am I doing?” for the user.
 
@@ -76,7 +76,7 @@ I demonstrated an ability to use well-founded and innovative techniques, skills,
 
 
 ## Enhancement:Databases
-**Click here to view the full narative**|[View Narative](https://github.com/Jconner3/Jconner3.github.io/blob/Databases/README.md)
+[**Click here to view the full narative**](https://github.com/Jconner3/Jconner3.github.io/blob/Databases/README.md)
 
 A fully functional app treats stored information as something that needs to be both protected and dependable which justified its inclusion for an enhancement in this category. The app isn’t just collecting quick inputs and throwing them away. It’s keeping a record of personal progress that the user expects to be private, accurate, and available later. I upgraded the storage layer to behave more like the storage layer in an official app store product: encrypted data at rest, predictable formats for stored entries, and controlled access paths to read that data back. I also focused on making sure older entries could still be accessed and organized cleanly as the history grows. This reflects the mindset of maintaining trustworthy data over time, which is exactly what the database category is meant to show.
 
