@@ -10,7 +10,7 @@ I also reworked the list of logged entries so it’s easier to navigate. The app
 <img width="200" height="441" alt="Screenshot 2025-10-26 at 11 14 26 PM" src="https://github.com/user-attachments/assets/e141835c-fea7-4fd5-a26f-51719ab6e885" />
 <img width="195" height="441" alt="Screenshot 2025-10-26 at 11 14 58 PM" src="https://github.com/user-attachments/assets/425c3bf3-3f7a-4376-be30-a7c988d4209d" />
   <br>
-  <sub><strong>Progress screen showing Monthly Averages table as well as the logged entries with different sorting filers enabled</strong></sub>
+  <sub></strong>Progress screen showing Monthly Averages table as well as the logged entries with different sorting filers enabled<strong></sub>
 </p>
 
 I put a lot of work into how the user edits and manages existing entries. Originally, each row had its own set of action icons, which felt crowded and busy. I replaced those icons with a long-press menu that opens options like editing the date, editing the weight, or deleting the entry. I also added the ability to tap the weight value directly and update it through an edit dialog, which keeps the adjustment focused and prevents the user from hunting through multiple screens. Deleting an entry now asks for confirmation and shows an undo Snackbar afterward, so a mistake can be reversed instead of being permanent. I fixed layout padding so the last row in a list doesn’t hide behind the bottom navigation bar, which was an issue once the number of logs hit about ten or so.
