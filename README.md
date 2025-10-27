@@ -1,4 +1,4 @@
-## <ins>Category One: Software Engineering & Design</ins>
+# <ins>Category One: Software Engineering & Design</ins>
 
 My enhancements for the Software Engineering & Design category focused on how the app feels and behaves when a real person is using it. The goal was to take something functional and raise it to the level of something that respects flow, and usability. One major change was the redesign of the Progress screen. I introduced a dedicated Monthly Averages section with a clear title and rows the user can actually read at a glance. I also added visible controls to filter by timeframe and change sort order. Instead of forcing the user to scroll through everything and interpret it themselves, the app now gives them a way to view recent progress or historical progress in a controlled, intentional way.
 
@@ -25,7 +25,7 @@ The Home screen also went through a full pass. I rebuilt it around a Material Vi
 
 Every visual change required additional thought into what other parts of the code would be impacted by adding the functionality. Adding the month headers meant changing how the list is built. Adding undo meant creating a safe recovery path after destructive actions. Redesigning the Home screen meant deciding what information deserves to be surfaced and what can stay in supporting views. I had to think about edge cases such as first-time use, accidental deletes, partial input, and long histories
 
-Through all of my enhancments I accomplished the following course outcomes: 
+**Through all of my enhancments I accomplished the following course outcomes:**
 
 I demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices to implement computer solutions that deliver value and accomplish industry-specific goals by rebuilding the data layer of the app so it behaves like part of a real product instead of a basic class project. I standardized how entries are stored and retrieved, created focused query methods that return exactly what the rest of the app needs, and added structure so the app can pull historical data in a clean and predictable way.
 
