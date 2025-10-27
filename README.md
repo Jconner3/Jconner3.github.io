@@ -1,1 +1,18 @@
-Jarett
+<ins>## Category Three: Databases</ins>
+
+In the original version of the project, entries were being stored, but the storage layer wasn’t built with security in mind and wasn’t optimized for growing history. I reworked that layer so it behaves more like something you would see in an application that handles personal data. The most important change was migrating the local database to SQLCipher so that all records are encrypted at rest. I loaded the SQLCipher libraries in the app, opened the database with a passphrase instead of plain SQLite, and kept that passphrase in memory rather than hardcoding it. That change means the user’s history is not left in clear text on the device. 
+
+I also standardized how data is stored and retrieved. Dates are now written in a consistent ISO format (YYYY-MM-DD), which gives the app a single timeline format it can trust. That sounds small, but it solves a lot of downstream problems. Once the dates are predictable, the app can sort and group records in a reliable way without guessing. I created a helper to pull entries from a given range and return them in the order the app expects, instead of dumping everything and then hoping the UI sorts it correctly. The queries are now parameterized, which gives me tighter control over what gets requested from the database and reduces the chances of something unexpected being read or displayed.
+
+I added an index on the date column so the app can work with larger histories without slowing down when it tries to show past progress. I wrote logic in the database layer to generate month and year labels directly from stored records and added a helper to ask for all the dates in a given calendar month. That allowed features like highlighting recorded days on a calendar and calculating monthly averages without doing heavy manual work in the app layer.
+
+Working through this enhancement taught me that “the data is there” is not good enough. The data has to be protected and accessible. I had to think about what happens if the app runs for a long time and the table gets large. I had to think about how the app should behave when it needs to answer questions like “what did I log this month?” instead of just “what did I log right now?” I also had to think about privacy in a more serious way. Once you encrypt the database and enforce a controlled access path, you’re making it clear that this information belongs to the user, and you’re treating it like it matters.
+
+The following course outcomes were accomplished by completing these enhancements:
+
+I demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices to implement computer solutions that deliver value and accomplish industry-specific goals by redesigning the interface and interaction flow so the app behaves in a focused, user-centered way. I added features like meaningful progress displays, filter and sort controls, and an improved Home screen that presents the most important information clearly instead of making the user hunt for it
+
+I designed, developed, and delivered professional-quality written and visual communication that is coherent, technically sound, and appropriately adapted to specific audiences and contexts by treating the interface itself as communication. The layout, wording, and screen flow guide the user through actions like reviewing history, updating an entry, or logging new data, and the app gives feedback in a way that can be understood without technical knowledge.
+
+I developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources by adding confirmation before deletion and supporting an undo path, which protects the user from accidental data loss and keeps their history under their control.
+
