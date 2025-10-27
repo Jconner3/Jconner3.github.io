@@ -9,6 +9,8 @@ I also reworked the list of logged entries so it’s easier to navigate. The app
 <img width="199" height="438" alt="Screenshot 2025-10-26 at 11 14 49 PM" src="https://github.com/user-attachments/assets/3664c0f7-8020-475e-8880-7712d9f6581d" />
 <img width="200" height="441" alt="Screenshot 2025-10-26 at 11 14 26 PM" src="https://github.com/user-attachments/assets/e141835c-fea7-4fd5-a26f-51719ab6e885" />
 <img width="195" height="441" alt="Screenshot 2025-10-26 at 11 14 58 PM" src="https://github.com/user-attachments/assets/425c3bf3-3f7a-4376-be30-a7c988d4209d" />
+  <br>
+  **<sub>Progress screen showing Monthly Averages table as well as the logged entries with different sorting filers enabled</sub>**
 </p>
 
 I put a lot of work into how the user edits and manages existing entries. Originally, each row had its own set of action icons, which felt crowded and busy. I replaced those icons with a long-press menu that opens options like editing the date, editing the weight, or deleting the entry. I also added the ability to tap the weight value directly and update it through an edit dialog, which keeps the adjustment focused and prevents the user from hunting through multiple screens. Deleting an entry now asks for confirmation and shows an undo Snackbar afterward, so a mistake can be reversed instead of being permanent. I fixed layout padding so the last row in a list doesn’t hide behind the bottom navigation bar, which was an issue once the number of logs hit about ten or so.
@@ -17,6 +19,8 @@ The Home screen also went through a full pass. I rebuilt it around a Material Vi
 <p align="center">
 <img width="199" height="446" alt="Screenshot 2025-10-26 at 11 10 50 PM" src="https://github.com/user-attachments/assets/644cd74f-d6fa-4bd8-a1e2-361487c08c05" />
 <img width="196" height="438" alt="Screenshot 2025-10-26 at 11 15 12 PM" src="https://github.com/user-attachments/assets/01ef5998-49aa-4087-90cf-bdca69a47504" />
+  <br>
+  <sub>**Home screen with and without data**</sub>
 </p>
 
 Every visual change required additional thought into what other parts of the code would be impacted by adding the functionality. Adding the month headers meant changing how the list is built. Adding undo meant creating a safe recovery path after destructive actions. Redesigning the Home screen meant deciding what information deserves to be surfaced and what can stay in supporting views. I had to think about edge cases such as first-time use, accidental deletes, partial input, and long histories
