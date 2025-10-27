@@ -2,13 +2,13 @@
 
 In the original version of the project, entries were being stored, but the storage layer wasn’t built with security in mind and wasn’t optimized for growing history. I reworked that layer so it behaves more like something you would see in an application that handles personal data. The most important change was migrating the local database to SQLCipher so that all records are encrypted at rest. I loaded the SQLCipher libraries in the app, opened the database with a passphrase instead of plain SQLite, and kept that passphrase in memory rather than hardcoding it. That change means the user’s history is not left in clear text on the device. 
 
-<p>
+<p align="center">
   <img width="671" height="359" alt="Screenshot 2025-10-27 at 1 09 19 AM" src="https://github.com/user-attachments/assets/1c21837d-fec1-4ffd-a8db-1ba5e3c6515d" />
   <br>
     <sub><strong>Encrypted database constructor with passphrase</strong></sub>
 </p>
 
-<p>
+<p align="center">
   <img width="524" height="332" alt="Screenshot 2025-10-27 at 1 13 43 AM" src="https://github.com/user-attachments/assets/5a2f3860-2c99-4cdb-a11d-67f203455aa3" />
   <br>
     <sub><strong>New helper that stores the current passphrase </strong></sub>
