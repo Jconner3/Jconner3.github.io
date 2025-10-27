@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "CS Capstone ePortfolio"
+title: "CS499 Capstone ePortfolio"
 ---
 
 ## Welcome {:#welcome}
-Welcome to my capstone ePortfolio for Southern New Hampshire University’s(SNHU) Computer Science program. This single page completes CS499 and the remaining requirements for my B.S. in Computer Science. My goal was simple, to demonstrate sound engineering practice and explain decisions in plain language while providing evidence of progress from coursework to capstone.
+Welcome to my capstone ePortfolio for Southern New Hampshire University’s Computer Science program. This project completes CS499 and the remaining requirements for my B.S. in Computer Science. My goal was simple, to demonstrate sound engineering practice and explain decisions in plain language while providing evidence of progress from coursework to capstone.
 
 
 ## Table of Contents {:#toc}
@@ -35,7 +35,7 @@ Welcome to my capstone ePortfolio for Southern New Hampshire University’s(SNHU
 
 
 ### Artifact {:#artifact-original}
-  The artifact that I have chosen for all my enhancements is a weight loss tracking app that I designed and tested using Android Studio. It was created as my final project for CS 360: Mobile Architect and Programming  which I completed in December of 2024. This app is the project I’m most proud of from my time at SNHU because it reflects my creativity and the knowledge I gained over the past few years. All of the code is written in Java. That is meaningful for me personally, because Java was the language I struggled with early in the program and it required hours of practice and studying to reach the level I’m at now.
+  The artifact that I have chosen for all my enhancements is a weight loss tracking app named WeighForward that I designed and tested using Android Studio. It was created as my final project for CS 360: Mobile Architect and Programming  which I completed in December of 2024. This app is the project I’m most proud of from my time at SNHU because it reflects my creativity and the knowledge I gained over the past few years. All of the code is written in Java. That is meaningful for me personally, because Java was the language I struggled with early in the program and it required hours of practice and studying to reach the level I’m at now.
   
   The app itself is centered around a simple but real need: helping a user track progress over time. To make that work, the project needed reliable navigation between screens, input that followed clear rules, and a way to store and show previous entries in a way that made sense to the user. Each entry is saved so the user can come back later and see how their numbers change over time, which turns the app into more than a single-use calculator. I also built the flow so that the information the user enters is checked and handled in a consistent way instead of just being accepted and dumped on the screen. I wanted my approach to reflect planning, not just coding, because the app must respond in a predictable way every time the user interacts with it. Building and refining those parts shows that I can take responsibility for the full behavior of the app, from how the user moves through it to how their information is handled and presented back to them in a consistent way.
   
