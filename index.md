@@ -12,9 +12,9 @@ Welcome to my capstone ePortfolio for Southern New Hampshire University’s Comp
 - [Artifact](#Artifact)
 - [Code Review Video](#Code-Review-video)
 - [Enhanced Artifact](#Enhanced-Artifact)
-- [Enhancement: Software Engineering & Design](#Enhancement:-Software-Engineering-&-Design)
-- [Enhancement: Algorithms & Data Structures](#Enhancement:-Algorithms-&-Data-Structures)
-- [Enhancement: Databases](Enhancement:-Databases)
+- [Enhancement:Software Engineering and Design](#Enhancement:Software-Engineering-and-Design)
+- [Enhancement:Algorithms and Data Structures](#Enhancement:Algorithms-and-Data-Structures)
+- [Enhancement:Databases](Enhancement:Databases)
 
 
 ## Self-Assessment
@@ -41,8 +41,7 @@ Welcome to my capstone ePortfolio for Southern New Hampshire University’s Comp
   
   This app serves as the core technical artifact for my capstone. All the analysis, planning, and enhancements in this eportfolio are built around improving this project and strengthening how it functions. The codebase gives me a place to show how I approach design decisions, how I handle user data, and how I work toward dependable behavior on a mobile platform. The following sections will reference this application as the foundation for my work.
 
-The original unenhanced code of the artifact can be found here
-- **Link:** [here](https://github.com/Jconner3/Jconner3.github.io/blob/main/WeightLossApp.zip).
+The original unenhanced code of the artifact can be found [here](https://github.com/Jconner3/Jconner3.github.io/blob/main/WeightLossApp.zip).
 
 
 ## Code Review Video
@@ -50,26 +49,25 @@ The link to my code review video can be found [here]
 
 
 ## Enhanced Artifact
-The fully updated artifact code can be found here
-- **Link:** [here](https://github.com/Jconner3/Jconner3.github.io/blob/main/WeightLossAppV2.zip).
+The fully updated artifact code can be found[here](https://github.com/Jconner3/Jconner3.github.io/blob/main/WeightLossAppV2.zip).
 
 
 
-## Enhancement: Software Engineering & Design
+## Enhancement:Software Engineering and Design
 The artifact was chosen for this enhancement category because the app had to grow from a basic working idea into something a real person could actually use every day. That meant I had to think about layout, flow, clarity, and error recovery, not just raw functionality. I redesigned screens so that important information is easy to find, made editing and deleting entries feel controlled instead of risky, and adjusted the interaction patterns to feel intentional on a mobile device. I also reworked how the interface and the underlying code support each other, so the behavior the user sees on screen is backed by consistent logic.
 
 I demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices to implement computer solutions that deliver value and accomplish industry-specific goals by rebuilding the data layer of the app so it behaves like part of a real product instead of a basic class project. I standardized how entries are stored and retrieved, created focused query methods that return exactly what the rest of the app needs, and added structure so the app can pull historical data in a clean and predictable way. 
 
 I developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources by moving the app to SQLCipher with full at-rest encryption, requiring a passphrase to open the database, and keeping that passphrase out of the code. I also treated each saved record as protected data and controlled how it could be inserted, accessed, and displayed.
 
-## Enhancement: Algorithms & Data Structures
+## Enhancement:Algorithms and Data Structures
 WeighForward deservers an enhancement in the Algorithms & Data Structures category because the functionally should go beyond just storing numbers for the user to look at. The app processes the user’s history, summarizes it, and turns it into something readable and meaningful. I wrote logic that can group entries by month, generate monthly averages, and build a progress view that reflects real change over time instead of just listing isolated values. I also added filtering to the page that shows all the users logged weights so they can focus on recent history or long-term trends without being overwhelmed. I implemented features that generated useful results efficiently, presents those results in a way that answers, “how am I doing?” for the user.
 
 I designed and evaluated computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices by improving the logic that drives the app’s progress features. I wrote code that groups recorded entries by month, calculates an average for each month, and builds a structured view of progress over time. I also added filtering based on recent activity and a controlled way to sort results so the user can review either their latest changes or their longer-term trend. 
 
 I demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices to implement computer solutions that deliver value and accomplish industry-specific goals by turning raw stored data into something the user can understand and act on. These changes make the information more useful, because the app can now answer practical questions about progress instead of only displaying individual numbers.
 
-## Enhancement: Databases
+## Enhancement:Databases
 A fully functional app treats stored information as something that needs to be both protected and dependable which justified its inclusion for an enhancement in this category. The app isn’t just collecting quick inputs and throwing them away. It’s keeping a record of personal progress that the user expects to be private, accurate, and available later. I upgraded the storage layer to behave more like the storage layer in an official app store product: encrypted data at rest, predictable formats for stored entries, and controlled access paths to read that data back. I also focused on making sure older entries could still be accessed and organized cleanly as the history grows. This reflects the mindset of maintaining trustworthy data over time, which is exactly what the database category is meant to show.
 
 I demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices to implement computer solutions that deliver value and accomplish industry-specific goals by redesigning the interface and interaction flow so the app behaves in a focused, user-centered way. I added features like meaningful progress displays, filter and sort controls, and an improved Home screen that presents the most important information clearly instead of making the user hunt for it
