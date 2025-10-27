@@ -8,13 +8,13 @@ Welcome to my capstone ePortfolio for Southern New Hampshire University’s Comp
 
 
 ## Table of Contents
-- [Self-Assessment](#Self-Assessment)
+- [Self-Assessment](##Self-Assessment)
 - [Artifact](#Artifact)
 - [Code Review Video](#Code-Review-video)
 - [Enhanced Artifact](#Enhanced-Artifact)
 - [Enhancement:Software Engineering and Design](#Enhancement:Software-Engineering-and-Design)
 - [Enhancement:Algorithms and Data Structures](#Enhancement:Algorithms-and-Data-Structures)
-- [Enhancement:Databases](Enhancement:Databases)
+- [Enhancement:Databases](##Enhancement:Databases)
 
 
 ## Self-Assessment
@@ -42,6 +42,13 @@ Welcome to my capstone ePortfolio for Southern New Hampshire University’s Comp
   This app serves as the core technical artifact for my capstone. All the analysis, planning, and enhancements in this eportfolio are built around improving this project and strengthening how it functions. The codebase gives me a place to show how I approach design decisions, how I handle user data, and how I work toward dependable behavior on a mobile platform. The following sections will reference this application as the foundation for my work.
 
 The original unenhanced code of the artifact can be found [here](https://github.com/Jconner3/Jconner3.github.io/blob/main/WeightLossApp.zip).
+
+<p>
+  <img width="260" height="566" alt="Screenshot 2025-10-26 at 10 21 15 PM" src="https://github.com/user-attachments/assets/c95f2fd8-05e7-43eb-b04f-4e6bf244a2b1" />
+  <br>
+  <sub><strong>WeighForward Login Screen</strong></sub>
+</p>
+
 
 
 ## Code Review Video
