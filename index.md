@@ -43,11 +43,6 @@ Welcome to my capstone ePortfolio for Southern New Hampshire University’s Comp
 
 The original unenhanced code of the artifact can be found [here](https://github.com/Jconner3/Jconner3.github.io/blob/main/WeightLossApp.zip).
 
-<p align="center">
-  <img width="260" height="566" alt="Screenshot 2025-10-26 at 10 21 15 PM" src="https://github.com/user-attachments/assets/c95f2fd8-05e7-43eb-b04f-4e6bf244a2b1" />
-  <br>
-  <sub><strong>WeighForward Login Screen</strong></sub>
-</p>
 <table>
   <tr>
     <td align="center">
