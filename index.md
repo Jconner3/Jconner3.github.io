@@ -17,7 +17,7 @@ Welcome to my capstone ePortfolio for Southern New Hampshire University’s Comp
 - [Enhancement: Databases](#narrative-db)
 
 
-## Professional Self-Assessment {:#self}
+## Self-Assessment {:#self}
   I started the Computer Science program in February 2023, so I have been in the program for about two and a half years. Before this degree, I studied biology at Angelo State University for two years. I originally planned on medical school, but I ultimately decided my interest in science and medicine was rooted in the knowledge and understanding, not so much from practicing medicine. My path into computer science was not a straight line, but that ended up helping me in the long run. Being a biology major taught me how to observe, document, and explain processes clearly and the transition to computer science taught me how to build those processes into working systems.
 
   During the program I developed three core skills that changed how I work, with the first being self-guided learning and research. Modern development work expects you to solve problems that are not already solved for you. I very quickly had to learn how to analyze documentation that didn’t explicitly tell me how to accomplish a task and then correct my own approach when I discovered a better way to handle it. I successfully improved my structured problem-solving skills and learned how to break a large task into smaller ones, define the requirements, design the logic and then implement that logic in a controlled way instead of constant guessing and patching. Something that I have always struggled with and made it a point to improve is my time management skills. Most courses over the years involved parallel work and it was important that I kept long term deadlines in mind while still delivering working code in short cycles. All three of these skills together made me more reliable and more confident when I work on a project with real expectations.
@@ -41,13 +41,15 @@ Welcome to my capstone ePortfolio for Southern New Hampshire University’s Comp
   
   This app serves as the core technical artifact for my capstone. All the analysis, planning, and enhancements in this eportfolio are built around improving this project and strengthening how it functions. The codebase gives me a place to show how I approach design decisions, how I handle user data, and how I work toward dependable behavior on a mobile platform. The following sections will reference this application as the foundation for my work.
 
+The original unenhanced code of the artifact can be found here
 - **Link:** <https://example.com/original>
-- **Snapshot:** tag/commit
+
 
 ## Code Review Video {:#code-review}
 Paste your link: <https://your-video-link>
 
 ## Enhanced Artifact {:#artifact-enhanced}
+The fully updated artifact code can be found here
 - **Link:** <https://example.com/enhanced>
 - **Evidence:** diff/PR
 
