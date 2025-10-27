@@ -19,10 +19,9 @@ I also redesigned how the app builds the progress list on screen. Instead of jus
 Another part of this enhancement was filtering and comparison logic. I added date-based filtering so the user can look at all data or narrow in on more recent ranges like the last 30 days or the last 7 days. Behind the scenes, the app calculates a cutoff date in ISO format and only returns entries on or after that point. On the home screen, I also added math to calculate recorded progress toward the user’s goal. The calculation is clamped so it always stays in a valid range and never shows impossible values. 
 
 <p align="center">
-<img width="649" height="271" alt="Screenshot 2025-10-27 at 12 40 49 AM" src="https://github.com/user-attachments/assets/c65a5d09-e7e4-4940-b268-36e531138083" />
-<img width="599" height="259" alt="Screenshot 2025-10-27 at 12 41 13 AM" src="https://github.com/user-attachments/assets/4d63e9f9-a6cb-4c07-87cc-ef22d3417539" />
+<img width="649" height="271" alt="Screenshot 2025-10-27 at 12 40 49 AM" src="https://github.com/user-attachments/assets/c65a5d09-e7e4-4940-b268-36e531138083" /> <img width="599" height="259" alt="Screenshot 2025-10-27 at 12 41 13 AM" src="https://github.com/user-attachments/assets/4d63e9f9-a6cb-4c07-87cc-ef22d3417539" />
 <br>
-  <sub><strong>lgetWeightEntries() and computeCutoffIso() handle the date based filtering</strong></sub>
+  <sub><strong>getWeightEntries() and computeCutoffIso() handle the date based filtering</strong></sub>
 </p>
 
 Sorting was also addressed. The user can now choose to see the newest entries first or flip that order to oldest first. I implemented a retrieval path that respects that choice directly, instead of forcing the app to manually reorder everything afterward. That keeps the flow predictable. It also avoids confusion when the user is trying to read their history in chronological order versus trying to see their most recent activity first.
