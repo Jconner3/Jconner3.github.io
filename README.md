@@ -1,14 +1,26 @@
-## <ins>Category Three: Databases</ins>
+# **<ins>Category Three: Databases</ins>**
 
 In the original version of the project, entries were being stored, but the storage layer wasn’t built with security in mind and wasn’t optimized for growing history. I reworked that layer so it behaves more like something you would see in an application that handles personal data. The most important change was migrating the local database to SQLCipher so that all records are encrypted at rest. I loaded the SQLCipher libraries in the app, opened the database with a passphrase instead of plain SQLite, and kept that passphrase in memory rather than hardcoding it. That change means the user’s history is not left in clear text on the device. 
 
+<p>
+  <img width="671" height="359" alt="Screenshot 2025-10-27 at 1 09 19 AM" src="https://github.com/user-attachments/assets/1c21837d-fec1-4ffd-a8db-1ba5e3c6515d" />
+  <br>
+    <sub><strong>Encrypted database constructor with passphrase</strong></sub>
+</p>
+
+<p>
+  <img width="524" height="332" alt="Screenshot 2025-10-27 at 1 13 43 AM" src="https://github.com/user-attachments/assets/5a2f3860-2c99-4cdb-a11d-67f203455aa3" />
+  <br>
+    <sub><strong>New helper that stores the current passphrase </strong></sub>
+</p>
+
 I also standardized how data is stored and retrieved. Dates are now written in a consistent ISO format (YYYY-MM-DD), which gives the app a single timeline format it can trust. That sounds small, but it solves a lot of downstream problems. Once the dates are predictable, the app can sort and group records in a reliable way without guessing. I created a helper to pull entries from a given range and return them in the order the app expects, instead of dumping everything and then hoping the UI sorts it correctly. The queries are now parameterized, which gives me tighter control over what gets requested from the database and reduces the chances of something unexpected being read or displayed.
 
-I added an index on the date column so the app can work with larger histories without slowing down when it tries to show past progress. I wrote logic in the database layer to generate month and year labels directly from stored records and added a helper to ask for all the dates in a given calendar month. That allowed features like highlighting recorded days on a calendar and calculating monthly averages without doing heavy manual work in the app layer.
+I added an index on the date column so the app can work with larger histories without slowing down when it tries to show past progress. I wrote logic in the database layer to generate month and year labels directly from stored records and added a helper to ask for all the dates in a given calendar month. 
 
-Working through this enhancement taught me that “the data is there” is not good enough. The data has to be protected and accessible. I had to think about what happens if the app runs for a long time and the table gets large. I had to think about how the app should behave when it needs to answer questions like “what did I log this month?” instead of just “what did I log right now?” I also had to think about privacy in a more serious way. Once you encrypt the database and enforce a controlled access path, you’re making it clear that this information belongs to the user, and you’re treating it like it matters.
+Working through this enhancement taught me that “the data is there” is not good enough. The data has to be protected and accessible and I had to think about how the app should behave when it needs to answer questions like “what did I log this month?” instead of just “what did I log right now?” I also had to think about privacy in a more serious way. Once you encrypt the database and enforce a controlled access path, you’re making it clear that this information belongs to the user, and you’re treating it like it matters.
 
-The following course outcomes were accomplished by completing these enhancements:
+**The following course outcomes were accomplished by completing these enhancements:**
 
 I demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices to implement computer solutions that deliver value and accomplish industry-specific goals by redesigning the interface and interaction flow so the app behaves in a focused, user-centered way. I added features like meaningful progress displays, filter and sort controls, and an improved Home screen that presents the most important information clearly instead of making the user hunt for it
 
