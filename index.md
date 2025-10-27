@@ -8,13 +8,13 @@ Welcome to my capstone ePortfolio for Southern New Hampshire University’s Comp
 
 
 ## Table of Contents
-- [Self-Assessment](##Self-Assessment)
+- [Self-Assessment](#Self-Assessment)
 - [Artifact](#Artifact)
 - [Code Review Video](#Code-Review-video)
 - [Enhanced Artifact](#Enhanced-Artifact)
 - [Enhancement:Software Engineering and Design](#Enhancement:Software-Engineering-and-Design)
 - [Enhancement:Algorithms and Data Structures](#Enhancement:Algorithms-and-Data-Structures)
-- [Enhancement:Databases](##Enhancement:Databases)
+- [Enhancement:Databases](#Enhancement:Databases)
 
 
 ## Self-Assessment
