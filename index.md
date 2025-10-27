@@ -42,7 +42,7 @@ Welcome to my capstone ePortfolio for Southern New Hampshire University’s Comp
   This app serves as the core technical artifact for my capstone. All the analysis, planning, and enhancements in this eportfolio are built around improving this project and strengthening how it functions. The codebase gives me a place to show how I approach design decisions, how I handle user data, and how I work toward dependable behavior on a mobile platform. The following sections will reference this application as the foundation for my work.
 
 The original unenhanced code of the artifact can be found here
-- **Link:** <https://videolink.com>
+- **Link:** <[https://github.com/Jconner3/Jconner3.github.io/blob/main/WeightLossApp.zip]>
 
 
 ## Code Review Video {:#code-review}
