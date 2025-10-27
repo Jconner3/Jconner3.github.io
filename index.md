@@ -34,7 +34,7 @@ Welcome to my capstone ePortfolio for Southern New Hampshire University’s Comp
 
 
 
-### Artifact {:#artifact-original}
+## Artifact {:#artifact-original}
   The artifact that I have chosen for all my enhancements is a weight loss tracking app named WeighForward that I designed and tested using Android Studio. It was created as my final project for CS 360: Mobile Architect and Programming  which I completed in December of 2024. This app is the project I’m most proud of from my time at SNHU because it reflects my creativity and the knowledge I gained over the past few years. All of the code is written in Java. That is meaningful for me personally, because Java was the language I struggled with early in the program and it required hours of practice and studying to reach the level I’m at now.
   
   The app itself is centered around a simple but real need: helping a user track progress over time. To make that work, the project needed reliable navigation between screens, input that followed clear rules, and a way to store and show previous entries in a way that made sense to the user. Each entry is saved so the user can come back later and see how their numbers change over time, which turns the app into more than a single-use calculator. I also built the flow so that the information the user enters is checked and handled in a consistent way instead of just being accepted and dumped on the screen. I wanted my approach to reflect planning, not just coding, because the app must respond in a predictable way every time the user interacts with it. Building and refining those parts shows that I can take responsibility for the full behavior of the app, from how the user moves through it to how their information is handled and presented back to them in a consistent way.
@@ -47,18 +47,18 @@ Welcome to my capstone ePortfolio for Southern New Hampshire University’s Comp
 ## Code Review Video {:#code-review}
 Paste your link: <https://your-video-link>
 
-### Enhanced Artifact {:#artifact-enhanced}
+## Enhanced Artifact {:#artifact-enhanced}
 - **Link:** <https://example.com/enhanced>
 - **Evidence:** diff/PR
 
-## Narratives {:#narratives}
-### Software Engineering & Design {:#narrative-se}
-…
 
-### Algorithms & Data Structures {:#narrative-algo}
-…
+## Enhancement: Software Engineering & Design {:#narrative-se}
+The artifact was chosen for this enhancement category because the app had to grow from a basic working idea into something a real person could actually use every day. That meant I had to think about layout, flow, clarity, and error recovery, not just raw functionality. I redesigned screens so that important information is easy to find, made editing and deleting entries feel controlled instead of risky, and adjusted the interaction patterns to feel intentional on a mobile device. I also reworked how the interface and the underlying code support each other, so the behavior the user sees on screen is backed by consistent logic.
 
-### Databases {:#narrative-db}
-…
+## Enhancement: Algorithms & Data Structures {:#narrative-algo}
+WeighForward deservers an enhancement in the Algorithms & Data Structures category because the functionally should go beyond just storing numbers for the user to look at. The app processes the user’s history, summarizes it, and turns it into something readable and meaningful. I wrote logic that can group entries by month, generate monthly averages, and build a progress view that reflects real change over time instead of just listing isolated values. I also added filtering to the page that shows all the users logged weights so they can focus on recent history or long-term trends without being overwhelmed. I implemented features that generated useful results efficiently, presents those results in a way that answers, “how am I doing?” for the user.
+
+## Enhancement: Databases {:#narrative-db}
+A fully functional app treats stored information as something that needs to be both protected and dependable which justified its inclusion for an enhancement in this category. The app isn’t just collecting quick inputs and throwing them away. It’s keeping a record of personal progress that the user expects to be private, accurate, and available later. I upgraded the storage layer to behave more like the storage layer in an official app store product: encrypted data at rest, predictable formats for stored entries, and controlled access paths to read that data back. I also focused on making sure older entries could still be accessed and organized cleanly as the history grows. This reflects the mindset of maintaining trustworthy data over time, which is exactly what the database category is meant to show.
 
 
