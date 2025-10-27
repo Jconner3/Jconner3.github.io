@@ -10,6 +10,12 @@ The enhancement for the Algorithms & Data Structures category focused on how the
 
 I also redesigned how the app builds the progress list on screen. Instead of just dumping all the entries one after another, the app now groups entries under month headers. As the list is built, the code detects when the month changes and inserts a header before continuing. This happens in one pass, so the app doesn’t need to repeatedly scan or sort during display. 
 
+<p align="center">
+<img width="873" height="722" alt="Screenshot 2025-10-27 at 12 35 41 AM" src="https://github.com/user-attachments/assets/f7f943e7-61f6-4d91-823e-b17b47591372" />
+<br>
+  <sub><strong>loadWeightEntries() method that handles grouping and header for the table</strong></sub>
+</p>
+
 Another part of this enhancement was filtering and comparison logic. I added date-based filtering so the user can look at all data or narrow in on more recent ranges like the last 30 days or the last 7 days. Behind the scenes, the app calculates a cutoff date in ISO format and only returns entries on or after that point. On the home screen, I also added math to calculate recorded progress toward the user’s goal. The calculation is clamped so it always stays in a valid range and never shows impossible values. 
 
 Sorting was also addressed. The user can now choose to see the newest entries first or flip that order to oldest first. I implemented a retrieval path that respects that choice directly, instead of forcing the app to manually reorder everything afterward. That keeps the flow predictable. It also avoids confusion when the user is trying to read their history in chronological order versus trying to see their most recent activity first.
